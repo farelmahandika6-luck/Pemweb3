@@ -1,0 +1,44 @@
+.hero{
+text-align:center;
+}
+
+.hero img{
+width:180px;
+height:180px;
+object-fit:cover;
+border-radius:50%;
+border:5px solid #dbeafe;
+margin-bottom:15px;
+}
+
+.hero h1{
+margin-bottom:10px;
+}
+
+.hero h3{
+color:#64748b;
+margin-bottom:15px;
+}
+
+.skills{
+margin-top:15px;
+}
+
+.tag{
+display:inline-block;
+padding:10px 15px;
+background:var(--primary);
+color:white;
+border-radius:20px;
+margin:5px;
+transition:.3s;
+}
+
+.tag:hover{
+transform:scale(1.1);
+}
+
+.harapan{
+padding-left:20px;
+line-height:1.8;
+}
